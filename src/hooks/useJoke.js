@@ -12,7 +12,7 @@ export const useJoke = () => {
         try {
             // Fetching a random joke, excluding dark content for safety, enabling both single and twopart
             // Fetching a random joke, excluding 'Dark' category and other unsafe content
-            const response = await axios.get('https://v2.jokeapi.dev/joke/Programming,Misc,Pun,Spooky,Christmas', {
+            const response = await axios.get(`${import.meta.env.VITE_API_URL}/joke/Programming,Misc,Pun,Spooky,Christmas`, {
                 params: {
                     blacklistFlags: 'nsfw,religious,political,racist,sexist,explicit'
                 }
