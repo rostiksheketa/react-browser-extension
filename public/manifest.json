@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Random Joke Generator by Ros Sheketa",
+  "version": "0.0.0.1",
+  "description": "Get a random joke to brighten your day!",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Random Joke"
+  },
+  "icons": ["vite.svg"],
+  "host_permissions": [
+    "https://v2.jokeapi.dev/*"
+  ]
+}

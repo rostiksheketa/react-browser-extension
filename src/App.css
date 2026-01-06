@@ -1,0 +1,53 @@
+/* Basic App Styles */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.joke-card {
+  background: #333;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.setup {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #aaa;
+}
+
+.delivery {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.single-joke {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
