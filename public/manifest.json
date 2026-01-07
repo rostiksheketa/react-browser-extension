@@ -7,7 +7,11 @@
     "default_popup": "index.html",
     "default_title": "Random Joke"
   },
-  "icons": ["vite.svg"],
+  "icons": {
+    "48": "r-logo.png",
+    "96": "r-logo.png",
+    "128": "r-logo.png"
+  },
   "host_permissions": [
     "https://v2.jokeapi.dev/*"
   ]
